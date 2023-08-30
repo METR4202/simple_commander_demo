@@ -22,7 +22,7 @@ def to_pose_stamped(x: float, y: float, yaw: float, z:
     return pose
 
 
-# install dependencies sudo apt install ros-humble-nav2-simple-commander ros-humble-tf-transformations
+# install dependencies sudo apt install ros-humble-nav2-simple-commander ros-humble-tf-transformations  python3-transforms3d
 # this requires gazebo to be running (see programming_with_nav2.md):
 # ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 # cd ~/workspace/nav2_ws
